@@ -1,0 +1,17 @@
+.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Training artifacts: regenerate these, never commit them
+checkpoints/
+*.pt
+data/
